@@ -4,8 +4,10 @@
 package homework6;
 
 public class Question_19 {
+    //main method
     public static void main(String[] args) {
-        String str ="THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.";
-        System.out.println("Output : " +str.toLowerCase());
+
+        String str ="THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG."; // declared local variable
+        System.out.println("Output : " +str.toLowerCase()); // printing statement with method
     }
 }

@@ -21,7 +21,7 @@ public class Question_10 {
         int i;////reading a number whose table is to be print
         for(i=1;i<=10;i++)  ////loop start execution form and execute until the condition i<=10 becomes false
         {
-            System.out.println(num+"X"+i+"="+num*i);
+            System.out.println(num+"X"+i+"="+num*i); // printing statement with logic
         }
 
     }

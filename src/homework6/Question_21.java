@@ -3,13 +3,14 @@
 package homework6;
 
 public class Question_21 {
+    // main method
     public static void main(String[] args) {
 
-        String str = "My name is Divya";
+        String str = "My name is Divya"; // declared local variable
         String str1 = "      Patel     ";
         String str2 = "MY NAME IS DIVYA";
 
-        System.out.println("1. Length of string is : " +str.length());
+        System.out.println("1. Length of string is : " +str.length()); /* printing statement with method*/
         System.out.println("2. Return a char value : " +str.charAt(5));
         System.out.println("3. Combines specified string : " +str.concat(str1));
         System.out.println("4. Return true if char are found in the string : " +str.contains("My"));
@@ -20,13 +21,13 @@ public class Question_21 {
         System.out.println("9. Check if this string is empty : " +str.isEmpty());
         System.out.println("10. Returns a string replacing all the old char to new char : " +str.replace('e','s'));
         System.out.println("11. Returns a part of the sting : " +str.substring(5,10));
-        char[] array = str.toCharArray();
+        char[] array = str.toCharArray(); // using method
         //12. Convert this string into character array
         for(char c : array)
         {
             System.out.println(c);
         }
-        System.out.println("13. Returns the string in lowercase letter : " +str2.toLowerCase());
+        System.out.println("13. Returns the string in lowercase letter : " +str2.toLowerCase()); // printing statement with formula
         System.out.println("14. Returns the string in uppercase letter : " +str.toUpperCase());
         System.out.println("15. Eliminates leading and trailing spaces : " +str1.trim());
     }

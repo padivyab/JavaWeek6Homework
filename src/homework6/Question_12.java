@@ -7,14 +7,15 @@ package homework6;
 
 public class Question_12 {
 
+    // main method user defined method
     public static void main(String[] args) {
 
-        double a = 25.5d;
+        double a = 25.5d; // declared local variable
         float b = 3.5f;
         double c = 40.5d;
         float d = 4.5f;
         //System.out.println("Test Data : ((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5))");
-        System.out.println("Expected Result : " +((a*b-b*b)/(c-d)));
+        System.out.println("Expected Result : " +((a*b-b*b)/(c-d))); // printing statement with formula
     }
 
 

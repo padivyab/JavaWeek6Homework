@@ -14,12 +14,13 @@ Binary number is: 101 */
 package homework6;
 
 public class Question_18 {
+    //main method
     public static void main(String[] args) {
 
-        int a = 125;
+        int a = 125; // declared local variable
         int b = 24;
-        System.out.println("Expected Output:");
-        System.out.println("125 + 24 = " +(a+b));
+        System.out.println("Expected Output:"); // printing statement
+        System.out.println("125 + 24 = " +(a+b)); // // printing statement with formula
         System.out.println("125 - 24 = " +(a-b));
         System.out.println("125 X 24 = " +(a*b));
         System.out.println("125 / 24 = " +(a/b));
